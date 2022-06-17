@@ -5,4 +5,5 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     runtimeOnly 'org.postgresql:postgresql'
     implementation 'org.springdoc:springdoc-openapi-ui:1.6.6'
-  }
+    implementation 'org.springframework.boot:spring-boot-starter-validation:2.6.3'
+}
