@@ -10,7 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/customer-service" />
             <option value="$PROJECT_DIR$/product-service" />
+            <option value="$PROJECT_DIR$/shopping-service" />
           </set>
         </option>
       </GradleProjectSettings>
