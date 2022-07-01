@@ -1,5 +1,6 @@
 package co.com.poli.shoppingservice.persistence.entity;
 
+import co.com.poli.shoppingservice.model.Customer;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.Setter;
@@ -25,6 +26,8 @@ public class Invoice {
     private String description;
     @Column(name = "customer_id")
     private Long customerId;
+    @Transient
+    private Customer customer;
 
     @Valid
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
