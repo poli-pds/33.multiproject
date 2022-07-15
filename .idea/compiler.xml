@@ -12,6 +12,8 @@
         <module name="Test.customer-service.main" />
         <module name="Test.eureka-service.main" />
         <module name="Test.product-service.main" />
+        <module name="Test.gateway-service.main" />
+        <module name="Test.admin-service.main" />
         <module name="Test.config-service.main" />
       </profile>
     </annotationProcessing>
